@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  whatsDisplayed="recipe";
+
+  onNavigate(event) {
+    this.whatsDisplayed = event
+  }
 
 }
